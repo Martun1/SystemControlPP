@@ -85,3 +85,109 @@ SystemControlPP/
 ### Compile
 ```bash
 g++ src/*.cpp -I include -o SystemControlPP
+Run
+bash
+./SystemControlPP
+🕹️ Usage Guide
+When you start the program, you will see the main menu with all available modules:
+
+Code
+1. File Manager
+2. Process Manager
+3. System Monitor
+4. User Manager
+5. Tools
+0. Exit
+Choose a number to enter a module.
+
+📂 Module Descriptions
+📁 File Manager
+The File Manager allows you to:
+
+create files
+
+delete files
+
+list files (demo)
+
+All files are stored inside the data/ folder.
+This module demonstrates basic file handling in C++.
+
+⚙️ Process Manager
+The Process Manager simulates processes using simple C++ structs.
+You can:
+
+create a simulated process
+
+list all processes
+
+remove (kill) a process
+
+This module demonstrates struct-based data simulation.
+
+📊 System Monitor
+The System Monitor displays simulated system information:
+
+CPU load
+
+RAM usage
+
+system uptime
+
+This module imitates system-style output without using OS-level APIs.
+
+👤 User Manager
+The User Manager handles basic user accounts.
+You can:
+
+create users
+
+log in
+
+list users
+
+User data is stored in a simple text-based database (users.db).
+
+🧰 Tools
+The Tools module includes:
+
+a basic calculator
+
+a password generator
+
+Caesar cipher encryption
+
+miscellaneous utilities
+
+This module demonstrates simple algorithmic logic.
+
+🧱 Code Philosophy
+SystemControl++ is built with simplicity and clarity in mind.
+The project avoids advanced libraries and focuses on:
+
+modularity
+
+readability
+
+expandability
+
+basic C++ only
+
+simulated systems instead of complex implementations
+
+This makes it perfect for beginners who want to build a “big” project without advanced knowledge.
+
+📌 Future Improvements
+Real file listing
+
+Real process management using threads
+
+Real system monitoring
+
+GUI version (Qt)
+
+Networking module
+
+📜 License
+MIT License — free to use and modify.
+
